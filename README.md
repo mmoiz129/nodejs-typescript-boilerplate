@@ -1,9 +1,6 @@
 # Nodejs, Typescript and Mysql 
 The goal is to implement an api for an application to manage working tasks. See the __[user stories](#user-stories)__ for the application details to be implemented.
 
-Clone this repository and create a [git bundle](https://git-scm.com/docs/git-bundle) and send it to us when you finished the task. One of the most important topics we want to see, is how you commit your 
-progress. This does not mean every commit has to be perfect.
-git s
 # To Run Application
 * To run the application please perform following task 
     * Create database in mysql
