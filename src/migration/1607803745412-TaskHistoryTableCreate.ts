@@ -1,5 +1,6 @@
+import { Service } from "typedi";
 import {MigrationInterface, QueryRunner} from "typeorm";
-
+@Service()
 export class TaskHistoryTableCreate1607803745412 implements MigrationInterface {
 
     public async up(queryRunner: QueryRunner): Promise<void> {

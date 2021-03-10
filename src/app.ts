@@ -1,13 +1,16 @@
 import 'reflect-metadata';
-import { createExpressServer, useContainer  } from 'routing-controllers';
+import { createExpressServer } from 'routing-controllers';
 import "express-async-errors";
 import {createConnection} from "typeorm";
 import { TaskController } from "./controller/task.controller";
+import { useContainer as rcUseContainer } from 'routing-controllers';
+import { useContainer as typeOrmUseContainer } from 'typeorm';
 import { Container } from 'typedi';
-import { Container as TypeOrmContainer } from 'typeorm-typedi-extensions';
 
-useContainer(Container);
-useContainer(TypeOrmContainer);
+rcUseContainer(Container);
+typeOrmUseContainer(Container);
+
+createConnection();
 
 const app = createExpressServer({
 	cors: true,
@@ -16,7 +19,7 @@ const app = createExpressServer({
 });
   
 
-createConnection();
+
 
 // process.on("uncaughtException", (ex) => {
 // 	winstonLogger.error(ex.message, ex);

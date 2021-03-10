@@ -1,4 +1,3 @@
-import { getConnection } from "typeorm";
 import {Task} from "../entity/Task";
 import {ResponseDto} from "../dto/response.dto";
 import {State} from "../enum/state";
@@ -7,6 +6,8 @@ import { TaskHistoryService } from "./taskhistory.service";
 import {UserService} from "./user.service";
 import { TaskRequest } from "../dto/task.request.dto";
 import { Service } from "typedi";
+import { TaskRepository } from "../repositories/task.repository";
+import { InjectRepository } from "typeorm-typedi-extensions";
 
 @Service()
 export class TaskService {
@@ -14,17 +15,16 @@ export class TaskService {
 	constructor(
 		private stateService: StateService, 
 		private taskHistoryService: TaskHistoryService,
-		private userService: UserService) {}
+		private userService: UserService,
+		@InjectRepository() private taskRepo: TaskRepository) {}
 
 	async getAllTasks() {
 		const response = new ResponseDto();
-		const userRepo = getConnection().getRepository(Task);
-		return response.makeSuccessResponse(await userRepo.find());
+		return response.makeSuccessResponse(await this.taskRepo.find());
 	}
 		
 	async insert(task: TaskRequest)  {
 		const response = new ResponseDto();
-		const taskRepo = getConnection().getRepository(Task);
 		const user = await this.userService.getUserById(task.created_by);
 		//validation for user
 		if (!user) {
@@ -41,15 +41,14 @@ export class TaskService {
 		taskObj.description = task.description;
 		taskObj.status = task.status;
 		taskObj.created_at = new Date();
-		response.makeSuccessResponse(await taskRepo.save(taskObj));
+		response.makeSuccessResponse(await this.taskRepo.save(taskObj));
 		
 		return response;
 	};
 
 	async update(updatedTask: TaskRequest) {
 		const response = new ResponseDto();
-		const taskRepo = getConnection().getRepository(Task);
-		const taskObj = await taskRepo.findOne({select: ["id", "title", "description", "status", "assigned_to"], where: {"id": updatedTask.id}});
+		const taskObj = await this.taskRepo.findOne({select: ["id", "title", "description", "status", "assigned_to"], where: {"id": updatedTask.id}});
 		const userAssignedTo = await this.userService.getUserById(updatedTask.assigned_to);
 		const updated_by = await this.userService.getUserById(updatedTask.updated_by);
 	
@@ -87,15 +86,14 @@ export class TaskService {
 			updated_by: updatedTask.updated_by
 		};
 	
-		await taskRepo.update(updatedTask.id, data);
+		await this.taskRepo.update(updatedTask.id, data);
 	
 		return response.makeSuccessResponse(updatedTask);
 	};
 
 	async getTaskDetail(id: number) {
 		const response = new ResponseDto();
-		const taskRepo = getConnection().getRepository(Task);
-		const task = await taskRepo.findOne(id, {relations: ["task_history"] });
+		const task = await this.taskRepo.findOne(id, {relations: ["task_history"] });
 		return response.makeSuccessResponse(task);
 	}
 

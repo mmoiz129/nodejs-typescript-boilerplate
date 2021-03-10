@@ -1,5 +1,6 @@
+import { Service } from "typedi";
 import {MigrationInterface, QueryRunner} from "typeorm";
-
+@Service()
 export class TaskAddUpdatedByAndUpdatedAt1607954014231 implements MigrationInterface {
 
     public async up(queryRunner: QueryRunner): Promise<void> {

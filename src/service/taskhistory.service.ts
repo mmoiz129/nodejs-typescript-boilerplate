@@ -1,10 +1,13 @@
 import { Task } from "../entity/Task";
 import { TaskHistory } from "../entity/TaskHistory";
-import { getConnection } from "typeorm";
 import { Service } from "typedi";
+import { TaskHistoryRepository } from "../repositories/task.history.repository";
+import { InjectRepository } from "typeorm-typedi-extensions";
 
 @Service()
 export class TaskHistoryService {
+
+	constructor(@InjectRepository() private taskHistoryRepo: TaskHistoryRepository) {}
 
 	checkDifferenceAndInsert(oldTask: Task, newTask: any): TaskHistory[] {
 
@@ -30,8 +33,7 @@ export class TaskHistoryService {
 	}
 	
 	async saveTaskHistory(updates: TaskHistory[]) {
-		const taskHistoryRepo = getConnection().getRepository(TaskHistory);
-		return await taskHistoryRepo.save(updates)
+		return await this.taskHistoryRepo.save(updates)
 	}
 
 }
