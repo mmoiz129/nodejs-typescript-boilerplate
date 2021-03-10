@@ -1,0 +1,626 @@
+{
+  error: TSError: ⨯ Unable to compile TypeScript
+  src/service/task.service.ts (21,28): ',' expected. (1005)
+  src/service/task.service.ts (21,28): Variable '_' implicitly has an 'any' type. (7005)
+      at getOutput (/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:307:15)
+      at /Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:336:16
+      at Object.compile (/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:498:11)
+      at Module.m._compile (/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:392:43)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+      at Object.require.extensions.<computed> [as .ts] (/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:395:12)
+      at Module.load (internal/modules/cjs/loader.js:941:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+      at Module.require (internal/modules/cjs/loader.js:965:19)
+      at require (internal/modules/cjs/helpers.js:88:18) {
+    diagnostics: [
+      {
+        message: "src/service/task.service.ts (21,28): ',' expected. (1005)",
+        code: 1005
+      },
+      {
+        message: "src/service/task.service.ts (21,28): Variable '_' implicitly has an 'any' type. (7005)",
+        code: 7005
+      }
+    ]
+  },
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript\n' +
+    "src/service/task.service.ts (21,28): ',' expected. (1005)\n" +
+    "src/service/task.service.ts (21,28): Variable '_' implicitly has an 'any' type. (7005)\n" +
+    'TSError: ⨯ Unable to compile TypeScript\n' +
+    "src/service/task.service.ts (21,28): ',' expected. (1005)\n" +
+    "src/service/task.service.ts (21,28): Variable '_' implicitly has an 'any' type. (7005)\n" +
+    '    at getOutput (/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:307:15)\n' +
+    '    at /Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:336:16\n' +
+    '    at Object.compile (/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:498:11)\n' +
+    '    at Module.m._compile (/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:392:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:395:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:941:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:782:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:965:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript\n' +
+    "src/service/task.service.ts (21,28): ',' expected. (1005)\n" +
+    "src/service/task.service.ts (21,28): Variable '_' implicitly has an 'any' type. (7005)\n" +
+    '    at getOutput (/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:307:15)\n' +
+    '    at /Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:336:16\n' +
+    '    at Object.compile (/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:498:11)\n' +
+    '    at Module.m._compile (/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:392:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts:395:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:941:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:782:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:965:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)',
+  exception: true,
+  date: 'Sun Dec 13 2020 18:16:42 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 41681,
+    uid: 502,
+    gid: 20,
+    cwd: '/Users/mmoiz/Documents/backend-coding-task',
+    execPath: '/usr/local/Cellar/node/14.10.1/bin/node',
+    version: 'v14.10.1',
+    argv: [
+      'node',
+      '/Users/mmoiz/Documents/backend-coding-task/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 185675776,
+      heapTotal: 128950272,
+      heapUsed: 103309352,
+      external: 2132151,
+      arrayBuffers: 293410
+    }
+  },
+  os: {
+    loadavg: [ 2.76611328125, 2.37744140625, 2.283203125 ],
+    uptime: 260373
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 307,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts',
+      function: null,
+      line: 336,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 498,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 392,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1097,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 395,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 941,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 782,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 965,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 88,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2020-12-13T17:16:42.282Z'
+}
+{
+  error: QueryFailedError: ER_BAD_FIELD_ERROR: Unknown column 'next_value' in 'field list'
+      at new QueryFailedError (/Users/mmoiz/Documents/backend-coding-task/src/error/QueryFailedError.ts:9:9)
+      at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/src/driver/mysql/MysqlQueryRunner.ts:193:37)
+      at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:526:10)
+      at Query._callback (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:488:16)
+      at Query.Sequence.end (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+      at Query.ErrorPacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+      at Protocol._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+      at Parser._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:433:10)
+      at Parser.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:43:10)
+      at Protocol.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:38:16) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlMessage: "Unknown column 'next_value' in 'field list'",
+    sqlState: '42S22',
+    index: 0,
+    sql: "INSERT INTO `task_history`(`id`, `task_id`, `updated_by`, `update_at`, `previous_value`, `next_value`, `attribute`) VALUES (DEFAULT, 13, 1, DEFAULT, 'Testing..', 'Testing123..', 'title')",
+    query: 'INSERT INTO `task_history`(`id`, `task_id`, `updated_by`, `update_at`, `previous_value`, `next_value`, `attribute`) VALUES (DEFAULT, ?, ?, DEFAULT, ?, ?, ?)',
+    parameters: [ 13, 1, 'Testing..', 'Testing123..', 'title' ]
+  },
+  level: 'error',
+  message: "uncaughtException: ER_BAD_FIELD_ERROR: Unknown column 'next_value' in 'field list'\n" +
+    "QueryFailedError: ER_BAD_FIELD_ERROR: Unknown column 'next_value' in 'field list'\n" +
+    '    at new QueryFailedError (/Users/mmoiz/Documents/backend-coding-task/src/error/QueryFailedError.ts:9:9)\n' +
+    '    at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/src/driver/mysql/MysqlQueryRunner.ts:193:37)\n' +
+    '    at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:526:10)\n' +
+    '    at Query._callback (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:488:16)\n' +
+    '    at Query.Sequence.end (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)\n' +
+    '    at Query.ErrorPacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)\n' +
+    '    at Protocol._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:433:10)\n' +
+    '    at Parser.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:43:10)\n' +
+    '    at Protocol.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:38:16)',
+  stack: "QueryFailedError: ER_BAD_FIELD_ERROR: Unknown column 'next_value' in 'field list'\n" +
+    '    at new QueryFailedError (/Users/mmoiz/Documents/backend-coding-task/src/error/QueryFailedError.ts:9:9)\n' +
+    '    at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/src/driver/mysql/MysqlQueryRunner.ts:193:37)\n' +
+    '    at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:526:10)\n' +
+    '    at Query._callback (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:488:16)\n' +
+    '    at Query.Sequence.end (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)\n' +
+    '    at Query.ErrorPacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)\n' +
+    '    at Protocol._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:433:10)\n' +
+    '    at Parser.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:43:10)\n' +
+    '    at Protocol.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:38:16)',
+  exception: true,
+  date: 'Mon Dec 14 2020 01:44:49 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 46175,
+    uid: 502,
+    gid: 20,
+    cwd: '/Users/mmoiz/Documents/backend-coding-task',
+    execPath: '/usr/local/Cellar/node/14.10.1/bin/node',
+    version: 'v14.10.1',
+    argv: [
+      'node',
+      '/Users/mmoiz/Documents/backend-coding-task/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 233832448,
+      heapTotal: 177250304,
+      heapUsed: 167968096,
+      external: 2630887,
+      arrayBuffers: 601237
+    }
+  },
+  os: {
+    loadavg: [ 2.19091796875, 2.47021484375, 2.54931640625 ],
+    uptime: 287256
+  },
+  trace: [
+    {
+      column: 9,
+      file: '/Users/mmoiz/Documents/backend-coding-task/src/error/QueryFailedError.ts',
+      function: 'new QueryFailedError',
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 37,
+      file: '/Users/mmoiz/Documents/backend-coding-task/src/driver/mysql/MysqlQueryRunner.ts',
+      function: null,
+      line: 193,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js',
+      function: null,
+      line: 526,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js',
+      function: 'Query._callback',
+      line: 488,
+      method: '_callback',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Sequence.js',
+      function: 'Query.Sequence.end',
+      line: 83,
+      method: 'end',
+      native: false
+    },
+    {
+      column: 8,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Query.js',
+      function: 'Query.ErrorPacket',
+      line: 92,
+      method: 'ErrorPacket',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js',
+      function: 'Protocol._parsePacket',
+      line: 291,
+      method: '_parsePacket',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js',
+      function: 'Parser._parsePacket',
+      line: 433,
+      method: '_parsePacket',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js',
+      function: 'Parser.write',
+      line: 43,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js',
+      function: 'Protocol.write',
+      line: 38,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: '2020-12-14T00:44:49.042Z'
+}
+{
+  error: QueryFailedError: ER_BAD_FIELD_ERROR: Unknown column 'next_value' in 'field list'
+      at new QueryFailedError (/Users/mmoiz/Documents/backend-coding-task/src/error/QueryFailedError.ts:9:9)
+      at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/src/driver/mysql/MysqlQueryRunner.ts:193:37)
+      at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:526:10)
+      at Query._callback (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:488:16)
+      at Query.Sequence.end (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+      at Query.ErrorPacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+      at Protocol._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+      at Parser._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:433:10)
+      at Parser.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:43:10)
+      at Protocol.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:38:16) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlMessage: "Unknown column 'next_value' in 'field list'",
+    sqlState: '42S22',
+    index: 0,
+    sql: "INSERT INTO `task_history`(`id`, `task_id`, `updated_by`, `update_at`, `previous_value`, `next_value`, `attribute`) VALUES (DEFAULT, 13, 1, DEFAULT, 'Testing123..', 'Testing..', 'title')",
+    query: 'INSERT INTO `task_history`(`id`, `task_id`, `updated_by`, `update_at`, `previous_value`, `next_value`, `attribute`) VALUES (DEFAULT, ?, ?, DEFAULT, ?, ?, ?)',
+    parameters: [ 13, 1, 'Testing123..', 'Testing..', 'title' ]
+  },
+  level: 'error',
+  message: "uncaughtException: ER_BAD_FIELD_ERROR: Unknown column 'next_value' in 'field list'\n" +
+    "QueryFailedError: ER_BAD_FIELD_ERROR: Unknown column 'next_value' in 'field list'\n" +
+    '    at new QueryFailedError (/Users/mmoiz/Documents/backend-coding-task/src/error/QueryFailedError.ts:9:9)\n' +
+    '    at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/src/driver/mysql/MysqlQueryRunner.ts:193:37)\n' +
+    '    at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:526:10)\n' +
+    '    at Query._callback (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:488:16)\n' +
+    '    at Query.Sequence.end (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)\n' +
+    '    at Query.ErrorPacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)\n' +
+    '    at Protocol._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:433:10)\n' +
+    '    at Parser.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:43:10)\n' +
+    '    at Protocol.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:38:16)',
+  stack: "QueryFailedError: ER_BAD_FIELD_ERROR: Unknown column 'next_value' in 'field list'\n" +
+    '    at new QueryFailedError (/Users/mmoiz/Documents/backend-coding-task/src/error/QueryFailedError.ts:9:9)\n' +
+    '    at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/src/driver/mysql/MysqlQueryRunner.ts:193:37)\n' +
+    '    at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:526:10)\n' +
+    '    at Query._callback (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:488:16)\n' +
+    '    at Query.Sequence.end (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)\n' +
+    '    at Query.ErrorPacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)\n' +
+    '    at Protocol._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:433:10)\n' +
+    '    at Parser.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:43:10)\n' +
+    '    at Protocol.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:38:16)',
+  exception: true,
+  date: 'Mon Dec 14 2020 01:46:02 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 46199,
+    uid: 502,
+    gid: 20,
+    cwd: '/Users/mmoiz/Documents/backend-coding-task',
+    execPath: '/usr/local/Cellar/node/14.10.1/bin/node',
+    version: 'v14.10.1',
+    argv: [
+      'node',
+      '/Users/mmoiz/Documents/backend-coding-task/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 203685888,
+      heapTotal: 136515584,
+      heapUsed: 109638768,
+      external: 2728740,
+      arrayBuffers: 699090
+    }
+  },
+  os: {
+    loadavg: [ 2.20849609375, 2.42578125, 2.52490234375 ],
+    uptime: 287329
+  },
+  trace: [
+    {
+      column: 9,
+      file: '/Users/mmoiz/Documents/backend-coding-task/src/error/QueryFailedError.ts',
+      function: 'new QueryFailedError',
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 37,
+      file: '/Users/mmoiz/Documents/backend-coding-task/src/driver/mysql/MysqlQueryRunner.ts',
+      function: null,
+      line: 193,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js',
+      function: null,
+      line: 526,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js',
+      function: 'Query._callback',
+      line: 488,
+      method: '_callback',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Sequence.js',
+      function: 'Query.Sequence.end',
+      line: 83,
+      method: 'end',
+      native: false
+    },
+    {
+      column: 8,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Query.js',
+      function: 'Query.ErrorPacket',
+      line: 92,
+      method: 'ErrorPacket',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js',
+      function: 'Protocol._parsePacket',
+      line: 291,
+      method: '_parsePacket',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js',
+      function: 'Parser._parsePacket',
+      line: 433,
+      method: '_parsePacket',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js',
+      function: 'Parser.write',
+      line: 43,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js',
+      function: 'Protocol.write',
+      line: 38,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: '2020-12-14T00:46:02.404Z'
+}
+{
+  error: QueryFailedError: ER_BAD_FIELD_ERROR: Unknown column 'next_value' in 'field list'
+      at new QueryFailedError (/Users/mmoiz/Documents/backend-coding-task/src/error/QueryFailedError.ts:9:9)
+      at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/src/driver/mysql/MysqlQueryRunner.ts:193:37)
+      at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:526:10)
+      at Query._callback (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:488:16)
+      at Query.Sequence.end (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+      at Query.ErrorPacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+      at Protocol._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+      at Parser._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:433:10)
+      at Parser.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:43:10)
+      at Protocol.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:38:16) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlMessage: "Unknown column 'next_value' in 'field list'",
+    sqlState: '42S22',
+    index: 0,
+    sql: "INSERT INTO `task_history`(`id`, `task_id`, `updated_by`, `update_at`, `previous_value`, `next_value`, `attribute`) VALUES (DEFAULT, 13, 1, DEFAULT, 'Testing..', 'Testing1', 'title')",
+    query: 'INSERT INTO `task_history`(`id`, `task_id`, `updated_by`, `update_at`, `previous_value`, `next_value`, `attribute`) VALUES (DEFAULT, ?, ?, DEFAULT, ?, ?, ?)',
+    parameters: [ 13, 1, 'Testing..', 'Testing1', 'title' ]
+  },
+  level: 'error',
+  message: "uncaughtException: ER_BAD_FIELD_ERROR: Unknown column 'next_value' in 'field list'\n" +
+    "QueryFailedError: ER_BAD_FIELD_ERROR: Unknown column 'next_value' in 'field list'\n" +
+    '    at new QueryFailedError (/Users/mmoiz/Documents/backend-coding-task/src/error/QueryFailedError.ts:9:9)\n' +
+    '    at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/src/driver/mysql/MysqlQueryRunner.ts:193:37)\n' +
+    '    at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:526:10)\n' +
+    '    at Query._callback (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:488:16)\n' +
+    '    at Query.Sequence.end (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)\n' +
+    '    at Query.ErrorPacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)\n' +
+    '    at Protocol._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:433:10)\n' +
+    '    at Parser.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:43:10)\n' +
+    '    at Protocol.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:38:16)',
+  stack: "QueryFailedError: ER_BAD_FIELD_ERROR: Unknown column 'next_value' in 'field list'\n" +
+    '    at new QueryFailedError (/Users/mmoiz/Documents/backend-coding-task/src/error/QueryFailedError.ts:9:9)\n' +
+    '    at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/src/driver/mysql/MysqlQueryRunner.ts:193:37)\n' +
+    '    at Query.<anonymous> (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:526:10)\n' +
+    '    at Query._callback (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js:488:16)\n' +
+    '    at Query.Sequence.end (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)\n' +
+    '    at Query.ErrorPacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)\n' +
+    '    at Protocol._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:433:10)\n' +
+    '    at Parser.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js:43:10)\n' +
+    '    at Protocol.write (/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js:38:16)',
+  exception: true,
+  date: 'Mon Dec 14 2020 01:48:06 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 46246,
+    uid: 502,
+    gid: 20,
+    cwd: '/Users/mmoiz/Documents/backend-coding-task',
+    execPath: '/usr/local/Cellar/node/14.10.1/bin/node',
+    version: 'v14.10.1',
+    argv: [
+      'node',
+      '/Users/mmoiz/Documents/backend-coding-task/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 198496256,
+      heapTotal: 136777728,
+      heapUsed: 105660904,
+      external: 2218231,
+      arrayBuffers: 188581
+    }
+  },
+  os: {
+    loadavg: [ 2.27392578125, 2.39306640625, 2.494140625 ],
+    uptime: 287453
+  },
+  trace: [
+    {
+      column: 9,
+      file: '/Users/mmoiz/Documents/backend-coding-task/src/error/QueryFailedError.ts',
+      function: 'new QueryFailedError',
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 37,
+      file: '/Users/mmoiz/Documents/backend-coding-task/src/driver/mysql/MysqlQueryRunner.ts',
+      function: null,
+      line: 193,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js',
+      function: null,
+      line: 526,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/Connection.js',
+      function: 'Query._callback',
+      line: 488,
+      method: '_callback',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Sequence.js',
+      function: 'Query.Sequence.end',
+      line: 83,
+      method: 'end',
+      native: false
+    },
+    {
+      column: 8,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/sequences/Query.js',
+      function: 'Query.ErrorPacket',
+      line: 92,
+      method: 'ErrorPacket',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js',
+      function: 'Protocol._parsePacket',
+      line: 291,
+      method: '_parsePacket',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js',
+      function: 'Parser._parsePacket',
+      line: 433,
+      method: '_parsePacket',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Parser.js',
+      function: 'Parser.write',
+      line: 43,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/mmoiz/Documents/backend-coding-task/node_modules/mysql/lib/protocol/Protocol.js',
+      function: 'Protocol.write',
+      line: 38,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: '2020-12-14T00:48:06.038Z'
+}

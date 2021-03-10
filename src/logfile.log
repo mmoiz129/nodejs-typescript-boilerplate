@@ -1,0 +1,590 @@
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-12T23:25:55.143Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-12T23:27:20.223Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T12:38:36.954Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T12:48:51.449Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T12:49:34.130Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T13:00:29.251Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T13:02:51.154Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T13:05:21.799Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T13:07:44.068Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T13:11:55.552Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T13:12:17.779Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T13:13:22.119Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T13:14:01.481Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T13:19:22.399Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T13:36:15.969Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T16:21:52.045Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T16:38:20.915Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T16:42:35.739Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T16:42:46.034Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T17:18:22.559Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T17:18:54.367Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T17:19:27.606Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T17:21:00.534Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T19:42:47.764Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T23:53:27.814Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T23:54:30.136Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T23:55:48.072Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-13T23:59:17.384Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:02:10.773Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:07:14.635Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:07:42.460Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:09:38.362Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:12:53.087Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:15:05.460Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:15:48.007Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:15:55.751Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:21:22.716Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:22:05.100Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:24:24.592Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:24:56.290Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:25:26.361Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:25:46.053Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:29:34.516Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:30:14.073Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:31:26.745Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:36:53.607Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:38:25.452Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:44:24.927Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:45:56.813Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:47:12.645Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:48:00.040Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:52:47.421Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:53:29.695Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:56:10.784Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:57:54.937Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:58:27.136Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T00:59:03.731Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T01:06:29.707Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T13:14:11.968Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T13:15:03.388Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T13:20:45.221Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T13:45:58.126Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T13:48:16.372Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T14:19:11.633Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T14:55:54.750Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T15:02:02.417Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T15:04:22.718Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T15:12:04.431Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T15:14:35.965Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T15:29:48.822Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T15:34:21.215Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T16:15:04.043Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-12-14T16:15:53.083Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-07T20:55:19.442Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-07T20:58:13.131Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-07T22:28:16.479Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-07T22:47:13.670Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T12:49:04.200Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T13:12:23.327Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T13:13:42.002Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T13:17:05.382Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T13:20:34.537Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T13:21:46.325Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T13:33:13.199Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T13:34:21.934Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T13:36:55.319Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T18:33:57.416Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T18:41:42.895Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T18:44:50.979Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T18:59:03.132Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:08:30.894Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:10:28.268Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:11:25.039Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:13:45.904Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:14:50.716Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:16:28.813Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:17:15.011Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:17:45.999Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:20:30.614Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:21:31.777Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:23:35.026Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:31:03.597Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:33:02.238Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T19:39:32.639Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T20:16:18.690Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-08T22:56:15.661Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-09T00:52:55.830Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-09T00:54:29.280Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-09T00:58:40.467Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-09T01:04:04.800Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-09T01:15:38.031Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-09T01:16:16.733Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-09T01:19:22.643Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-09T01:27:40.401Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-09T01:29:02.429Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-09T01:29:34.250Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-09T09:54:19.519Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-03-09T09:54:45.303Z'
+}
